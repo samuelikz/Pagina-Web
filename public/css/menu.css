@@ -1,0 +1,44 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+    flex-wrap: nowrap;
+    padding: 1rem 60px;
+
+    background: var(--primary-color);
+    width: auto;
+    height: 48px;
+}
+
+.title{
+    color: var(--secundary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size:large;
+}
+
+.subs{
+    display: flex;
+}
+
+.subs li a{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    color: var(--subs-color);
+}
+
+.subs a:hover{
+    text-decoration: 1.2px underline;
+}
+
+.button a{
+    background-color: var(--secundary-color);
+    font-family: 'Lato', sans-serif;
+    padding: 10px 40px;
+    border-radius: 3px;
+    color: white;
+}

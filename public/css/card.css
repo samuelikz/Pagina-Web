@@ -1,0 +1,34 @@
+
+h1 {
+    font: 400 3.8rem/1 "Nunito", sans-serif;
+    font-weight: bold;
+    line-height: 90%;
+    margin: clamp(10%, 9vh, 12%) 0 4rem;
+    width: min(300px, 80%);
+    color: var(--secundary-color);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card ul{
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width: clamp(50rem, 22vw, 30rem);
+}
+
+img{
+    width: 480px;
+    border-radius: 10px;
+}
